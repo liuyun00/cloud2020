@@ -1,0 +1,8 @@
+server:
+  port: 8004
+spring:
+  application:
+    name: cloud-privider-payment
+  cloud:
+    zookeeper:
+      connect-string: 192.169.17.130:2181

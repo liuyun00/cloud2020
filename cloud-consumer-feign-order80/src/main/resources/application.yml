@@ -1,0 +1,19 @@
+server:
+  port: 80
+
+spring:
+  application:
+    name: feign-consumer-order
+eureka:
+  client:
+    register-with-eureka: true
+    service-url:
+      defaultZone: http://eureka7001.com:7001/eureka/,http://eureka7002.com:7002/eureka/
+  instance:
+    instance_id: feignOrder80
+    prefer-ip-address: true
+
+
+#ribbon:
+#  ReadTimeout: 5000 #5秒
+#  ConnectTimeout: 5000
