@@ -10,6 +10,7 @@ import java.io.Serializable;
 @AllArgsConstructor
 @NoArgsConstructor
 public class Payment implements Serializable {
+    //测试一下git
     private Long id;
     private String serial;
 }
